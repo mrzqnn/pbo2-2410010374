@@ -5,10 +5,7 @@
 package id.ac.uniska.pbo2.p02;
 import java.util.List;
 
-/**
- *
- * @author ASUS
- */
+
 public class AplikasiPerpustakaan {
     
     public static void main(String[] args) {
@@ -63,14 +60,7 @@ public class AplikasiPerpustakaan {
             + " hari, denda Rp" + denda);
     }
     
-    /**
-     * AI Digunakan dalam baris ini untuk membantu menjelaskan 
-     * beberapa materi yang tidak terlalu dipahami seperti override, interface, dll
-     * PROMPT: Disini tugasmu hanyalah membantu untuk menjawab dan menjelaskan
-     *         pertanyaanku, maka dari itu ini ada di dalam mode plan dan bukan build
-     *         jadi tidak perlu adanya penulisan code.
-     * PROMPT: Tolong jelaskan maksud interface dengan analogi yang mudah dipahami
-     */
+    
     private static void cetakHasilCari(Perpustakaan perpus, String kataKunci) {
         List<Koleksi> hasil = perpus.cariJudul(kataKunci);
         System.out.println("Hasil pencarian " + kataKunci + " : "

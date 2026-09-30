@@ -4,12 +4,7 @@
  */
 package id.ac.uniska.pbo2.p02;
 
-/**
- *
- * @author ASUS
- * Kontrak untuk semua koleksi yang dapat dipinjam.
- * Interface hanya menyebutkan apa yang harus bisa dilakukan, bukan caranya.
- */
+
 public interface BisaDipinjam {
     // Lama pinjam maksimal dalam hari
     int batasHariPinjam();

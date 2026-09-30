@@ -4,10 +4,7 @@
  */
 package id.ac.uniska.pbo2.p02;
 
-/**
- *
- * @author ASUS
- */
+
 public abstract class Koleksi implements BisaDipinjam {
     // Default value variabel
     private final String kode;

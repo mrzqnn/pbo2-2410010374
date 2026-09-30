@@ -5,9 +5,7 @@
 package id.ac.uniska.pbo2.p02;
 
 /**
- *
- * @author ASUS
- * 
+ 
  * • Skripsi hanya dibaca di tempat: batasHariPinjam() bernilai 0 dan pinjam() selalu mengembalikan false
 (override method pinjam()).
 • Denda Skripsi selalu 0 dan keterangan() menampilkan penulis serta program studi.

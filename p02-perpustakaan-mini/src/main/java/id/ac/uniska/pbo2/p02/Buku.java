@@ -4,10 +4,7 @@
  */
 package id.ac.uniska.pbo2.p02;
 
-/**
- *
- * @author ASUS
- */
+
 public class Buku extends Koleksi {
     private final String penulis;
     

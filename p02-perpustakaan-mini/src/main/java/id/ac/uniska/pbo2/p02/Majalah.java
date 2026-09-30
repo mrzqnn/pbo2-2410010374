@@ -4,10 +4,7 @@
  */
 package id.ac.uniska.pbo2.p02;
 
-/**
- *
- * @author ASUS
- */
+
 public class Majalah extends Koleksi {
     private final String edisi;
     
