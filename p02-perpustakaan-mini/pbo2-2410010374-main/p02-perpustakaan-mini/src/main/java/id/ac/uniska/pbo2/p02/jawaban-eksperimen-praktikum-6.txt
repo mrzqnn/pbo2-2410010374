@@ -1,0 +1,5 @@
+JAWABAN Eksperimen pada praktikum 6:
+1.Koleksi is abstract, cannot be instantiated.
+2.Terjadinya error pada compile.
+3.adanya error IllegalArgumentException yang dimana terdapat bahwa property judul kosong.
+4.enkapsulasi yang tidak konsisten.
