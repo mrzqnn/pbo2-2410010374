@@ -1,0 +1,25 @@
+Eksperimen Praktikum 5
+1. Tabel tidak langsung berubah karena fireTableRowsInserted() berfungsi memberi tahu JTable bahwa ada data baru. Tanpa pemanggilan tersebut, perubahan pada model tidak diketahui oleh tabel.
+
+2. Nama yang muncul pada konfirmasi adalah Budi Santoso, karena baris tampilan Ahmad Fauzi adalah indeks 1, sedangkan indeks sebenarnya di model adalah 2.
+
+3. Jendela utama bisa diklik meskipun dialog masih terbuka. Kontak tidak langsung ditambahkan karena dialog nonmodal membuat method setVisible(true) tidak menunggu dialog ditutup.
+
+4. Ctrl+N tetap berfungsi karena menu Tambah selalu aktif. Ctrl+E dan Ctrl+D tidak berfungsi karena menu Ubah dan Hapus dinonaktifkan ketika belum ada baris yang dipilih.
+
+5. Baris setAccelerator() pada hapusItem berubah dari shortcut Ctrl+D menjadi tombol Delete tanpa kombinasi Ctrl.
+
+6. Program akan mengalami error karena model masih bernilai null ketika initComponents() dijalankan. Akibatnya, JTable tidak bisa menggunakan model yang belum dibuat.
+
+Refleksi:
+1. Karena JTable hanya menampilkan data, sedangkan data sebenarnya disimpan di TableModel.
+
+2. Tampilan tabel tidak langsung diperbarui karena JTable tidak menerima pemberitahuan perubahan data.
+
+3. Mnemonic menggunakan Alt dan huruf tertentu, sedangkan accelerator menggunakan shortcut seperti Ctrl+N untuk menjalankan perintah langsung.
+
+4. Agar pengguna menyelesaikan atau membatalkan pengisian dialog terlebih dahulu sebelum kembali ke jendela utama.
+
+5. Data yang terhapus bisa salah karena posisi baris setelah pencarian berbeda dengan posisi aslinya di model.
+
+6. Karena model digunakan saat initComponents() dijalankan untuk mengisi JTable, sehingga harus dibuat terlebih dahulu agar tidak bernilai null.
